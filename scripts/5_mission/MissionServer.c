@@ -1,9 +1,9 @@
 modded class MissionServer 
 {
-    override void OnInit() 
+	override void OnInit()
 	{
 		super.OnInit();
 
-        ItemsExtractor.Extract();
+		ItemsExtractor.Extract();
 	}
 };
